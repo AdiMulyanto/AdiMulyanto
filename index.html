@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Adi Mulyanto</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Adi Mulyanto</h1>
+            <p id="typing-text"></p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#tentang">Tentang Saya</a></li>
+            <li><a href="#portofolio">Portofolio</a></li>
+            <li><a href="#keahlian">Keahlian</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+    <section id="tentang" class="section">
+        <h2>Tentang Saya</h2>
+        <div class="about-container">
+            <img src="img/profile.jpg" alt="Adi Mulyanto" class="profile-pic">
+            <div class="about-content">
+                <p>Hai, saya Adi Mulyanto, seorang Web Developer dan UI/UX Designer yang baru 1 tahun dalam menciptakan solusi digital yang menarik dan fungsional. Saya memiliki passion dalam pengembangan web modern dan desain yang user-friendly.</p>
+                <p>Saya selalu berusaha untuk mengikuti tren terbaru dalam teknologi dan desain untuk memberikan hasil yang terbaik.</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/4d1yearago/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/AdiMulyanto" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portofolio" class="section">
+        <h2>Portofolio</h2>
+        <div class="portfolio-grid">
+            <!-- Contoh proyek -->
+            <div class="portfolio-card">
+                <img src="img/coming soon.jpg" alt="Proyek 1" class="portfolio-image">
+                <div class="overlay">
+                    <h3>SEE</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <img src="img/coming soon.jpg" alt="Proyek 2" class="portfolio-image">
+                <div class="overlay">
+                    <h3>SEE</h3>
+                    <p></p>
+                </div>
+            </div>
+            <!-- Tambahkan proyek lain sesuai kebutuhan -->
+        </div>
+    </section>
+    <section id="keahlian" class="section">
+        <h2>Keahlian</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon-container">
+                    <i class="fab fa-html5 skill-icon"></i>
+                </div>
+                <h3>HTML</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" data-level="90%" style="width: 0;">90%</div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon-container">
+                    <i class="fab fa-css3-alt skill-icon"></i>
+                </div>
+                <h3>CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" data-level="85%" style="width: 0;">85%</div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon-container">
+                    <i class="fab fa-js skill-icon"></i>
+                </div>
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" data-level="75%" style="width: 0;">75%</div>
+                </div>
+            </div>
+            <!-- Tambahkan keahlian lain sesuai kebutuhan -->
+        </div>
+    </section>
+    
+    <section id="kontak" class="section">
+        <h2>Kontak</h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" required>
+                </div>
+                <div class="form-group">
+                    <label for="pesan">Pesan:</label>
+                    <textarea id="pesan" name="pesan" rows="5" required></textarea>
+                </div>
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </section>    
+    <footer>
+        <p>&copy; 2024 Adi Mulyanto</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/4d1yearago/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/AdiMulyanto" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
