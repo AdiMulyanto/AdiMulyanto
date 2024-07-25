@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
         
         const nama = document.getElementById('nama').value;
         const pesan = document.getElementById('pesan').value;
-        const whatsappNumber = '6281234567890'; // Ganti dengan nomor WhatsApp Anda
+        const whatsappNumber = '62895605922275'; // Ganti dengan nomor WhatsApp Anda
 
         const whatsappURL = `https://wa.me/${whatsappNumber}?text=Nama:%20${encodeURIComponent(nama)}%0APesan:%20${encodeURIComponent(pesan)}`;
         
